@@ -12,3 +12,5 @@ pc2.c
 要想实现通信，则需要使用pthread来创建进程中的线程。
 <br>
 编译运行：gcc -o pc1 pc1.c -lpthread，没有 -lpthread无法编译。
+
+p1.c和p2.c都是用来模拟生产者和消费者问题的。
